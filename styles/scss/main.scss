@@ -1,0 +1,244 @@
+//! Global Variables
+$Black: #000000;
+$White: #ffffff;
+$Gray: #808080;
+$LightGray: #d3d3d3;
+$DarkGray: #a9a9a9;
+$CairoFont: Cairo;
+$none: none;
+$TLeft: left;
+$flex-wrap: wrap;
+//! Global
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	transition: all 0.3s;
+}
+p {
+	margin-bottom: 0 !important;
+}
+a {
+	text-decoration: none;
+	color: $Black;
+}
+ul {
+	list-style: none !important;
+	li {
+		margin-bottom: 0;
+	}
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+select,
+input,
+button,
+textarea:focus {
+	box-shadow: $none !important;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: $Black;
+	border-radius: 5px;
+}
+.text-left {
+	text-align: $TLeft !important;
+}
+.flex_wrap{
+	flex-wrap: $flex-wrap;
+}
+//! ScrollTop
+.scrollbtn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	background-color: $Black !important;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.5s;
+	z-index: -1;
+	opacity: 0;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	a {
+		i {
+			color: $White !important;
+		}
+	}
+}
+.show {
+	opacity: 1;
+	z-index: 1;
+	transition: all 0.5s;
+}
+//! NAVBAR
+.navbar {
+	background-color: $LightGray;
+	padding: 20px 10px;
+}
+.navbar-brand {
+	color: $White !important;
+}
+.nav-link {
+	color: $White !important;
+	font-size: 1.2em;
+	font-family: $CairoFont;
+	font-weight: 600;
+	padding: 15px;
+	transition: all 0.3s;
+	border-radius: 10px;
+	&:hover {
+		background-color: $Gray;
+		color: $White !important;
+	}
+}
+.active {
+	background-color: $Black;
+	color: $White;
+	padding: 15px;
+	border-radius: 10px;
+	&:hover {
+		background-color: $Black;
+		color: $White;
+	}
+}
+//! CONTENT
+// Hero
+.hero {
+	padding: 100px 0;
+}
+.hero-img {
+	border: 3px solid $Black;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	transform: rotate(45deg);
+	padding: 20px !important;
+	margin: 0 auto;
+	background-color: $LightGray;
+	.image {
+		background-image: url(../../public/imgs/hero.webp);
+		background-size: cover;
+		background-position: center;
+		border-radius: 30px;
+		width: 350px !important;
+		height: 350px !important;
+		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+		transform: rotate(-45deg);
+		margin: -48px;
+	}
+}
+// Services
+.services,
+.skills {
+	padding: 50px 0;
+	background-color: #a9a9a9;
+}
+.section-title {
+	color: $White;
+	font-family: $CairoFont;
+}
+.service-item {
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
+	border: 2px solid $Black;
+	margin-top: 20px;
+	&:hover {
+		background-color: $LightGray;
+		transform: translateY(-10px);
+		border: $none;
+		box-shadow: 0 0 30px $Black;
+	}
+}
+// Portfolio
+.portfolio,
+.contact {
+	padding: 50px 0;
+}
+// About
+// Contact
+.contact-content-title {
+	margin-bottom: 30px;
+	h2 {
+		font-family: $CairoFont;
+		font-weight: 700;
+		font-size: 2.5em;
+		color: $Black;
+	}
+}
+.contact-form {
+	form {
+		.input-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			align-items: center;
+			input{
+				width: 400px;
+			}
+		}
+		.form-group {
+			margin-bottom: 20px;
+			input[type='number'] {
+				border-radius: 10px;
+				&::-webkit-inner-spin-button {
+					-webkit-appearance: none;
+					display: none;
+				}
+			}
+			input,
+			textarea {
+				border-radius: 0 !important;
+				transform: skewX(-20deg);
+			}
+			textarea {
+				width: 950px;
+				height: 200px;
+				font-size: 1.5em;
+				font-weight: 500;
+				margin: 0 auto;
+			}
+		}
+		button {
+			border-radius: 0 !important;
+			transform: skewX(-20deg);
+			width: 900px !important;
+			margin: 0 auto;
+		}
+	}
+}
+//! Footer
+footer {
+	background-color: $Gray;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: $LightGray;
+	.footer-content {
+		justify-content: center !important;
+		align-items: center !important;
+		.copyright {
+			padding-right: 10px;
+			span:first-child {
+				padding-right: 10px;
+			}
+		}
+		a {
+			padding-left: 10px;
+			color: $White;
+			font-family: $CairoFont;
+			i {
+				padding-right: 5px;
+			}
+		}
+	}
+}
