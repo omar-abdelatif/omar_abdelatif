@@ -17,6 +17,7 @@ a {
 
 ul {
   list-style: none !important;
+  margin-bottom: 0 !important;
 }
 ul li {
   margin-bottom: 0;
@@ -136,6 +137,50 @@ textarea:focus {
           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   transform: rotate(-45deg);
   margin: -48px;
+}
+
+.hero-social .social-title {
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  font-family: Cairo;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #000000;
+          text-decoration-color: #000000;
+  text-decoration-thickness: 3px;
+}
+.hero-social .list-unstyled {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 480px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.hero-social .list-unstyled li {
+  padding: 15px;
+  border-radius: 10px;
+}
+.hero-social .list-unstyled li .btn {
+  padding: 0;
+}
+.hero-social .list-unstyled li .btn i {
+  font-size: 3em;
+  color: #ffffff;
+}
+.hero-social .list-unstyled .facebook {
+  background-color: #3b5998;
+}
+.hero-social .list-unstyled .github {
+  background-color: #24292e;
+}
+.hero-social .list-unstyled .linkedin {
+  background-color: #0077b5;
+}
+.hero-social .list-unstyled .whatsapp {
+  background-color: #25d366;
 }
 
 .services,

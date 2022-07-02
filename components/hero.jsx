@@ -33,7 +33,7 @@ function Hero() {
         typeWrite();
     }, []);
     return (
-        <section id="hero" className="hero">
+        <section className="hero">
             <div className="container">
                 <div className="row g-0 text-center align-items-center">
                     <div className="col-lg-6">
@@ -48,6 +48,31 @@ function Hero() {
                                 <br />
                                 <span>I’m a </span><span className='write'></span>
                             </h1>
+                        </div>
+                        <div className="hero-social">
+                            <p className="social-title">Find Me At:</p>
+                            <ul className="list-unstyled">
+                                <li className="facebook">
+                                    <a href="https://www.facebook.com/omar.elmalek.5" target="blank" className='btn'>
+                                        <i className="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li className="github">
+                                    <a href="https://github.com/omar-abdelatif" className='btn' target='blank'>
+                                        <i className="fab fa-github"></i>
+                                    </a>
+                                </li>
+                                <li className="linkedin">
+                                    <a href="https://www.linkedin.com/in/omar-abdelatif-a3580719a/" className='btn' target='blank'>
+                                        <i className="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li className="whatsapp">
+                                    <a href="https://api.whatsapp.com/send?phone=+201062760141" className='btn' targrt='blank'>
+                                        <i className="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
