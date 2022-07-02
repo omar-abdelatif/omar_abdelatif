@@ -68,7 +68,7 @@ function Hero() {
                                     </a>
                                 </li>
                                 <li className="whatsapp">
-                                    <a href="https://api.whatsapp.com/send?phone=+201062760141" className='btn' targrt='blank'>
+                                    <a href="https://api.whatsapp.com/send/?phone=201062760141&text&type=phone_number&app_absent=0" className='btn' targrt='blank'>
                                         <i className="fab fa-whatsapp"></i>
                                     </a>
                                 </li>
