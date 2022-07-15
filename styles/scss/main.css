@@ -112,6 +112,14 @@ textarea:focus {
   color: #ffffff;
 }
 
+.fixed-top {
+  background-color: #0077b5 !important;
+}
+
+.menu {
+  display: none !important;
+}
+
 .hero {
   padding: 100px 0;
 }
@@ -153,13 +161,11 @@ textarea:focus {
 }
 .hero-social .list-unstyled {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 480px;
-  padding: 30px;
+  margin-top: 30px;
   border-radius: 15px;
 }
 .hero-social .list-unstyled li {
+  margin-left: 20px;
   padding: 15px;
   border-radius: 10px;
 }
@@ -169,6 +175,9 @@ textarea:focus {
 .hero-social .list-unstyled li .btn i {
   font-size: 3em;
   color: #ffffff;
+}
+.hero-social .list-unstyled li:first-child {
+  margin-left: 0;
 }
 .hero-social .list-unstyled .facebook {
   background-color: #3b5998;
@@ -248,16 +257,16 @@ textarea:focus {
   transform: skewX(-20deg);
 }
 .contact-form form .form-group textarea {
-  width: 950px;
   height: 200px;
   font-size: 1.5em;
   font-weight: 500;
   margin: 0 auto;
+  width: 100%;
 }
 .contact-form form button {
   border-radius: 0 !important;
   transform: skewX(-20deg);
-  width: 900px !important;
+  width: 100%;
   margin: 0 auto;
 }
 

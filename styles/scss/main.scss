@@ -111,6 +111,12 @@ textarea:focus {
 		color: $White;
 	}
 }
+.fixed-top {
+	background-color: #0077b5 !important;
+}
+.menu{
+	display: $none !important;
+}
 //! CONTENT
 // Hero
 .hero {
@@ -151,12 +157,13 @@ textarea:focus {
 	}
 	.list-unstyled {
 		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		width: 480px;
-		padding: 30px;
+		// justify-content: space-evenly;
+		// align-items: center;
+		// width: 480px;
+		margin-top: 30px;
 		border-radius: 15px;
 		li {
+			margin-left: 20px;
 			padding: 15px;
 			border-radius: 10px;
 			.btn{
@@ -166,7 +173,9 @@ textarea:focus {
 				color: $White;
 			}
 			}
-			
+			&:first-child{
+				margin-left: 0;
+			}
 		}
 		.facebook {
 			background-color: #3b5998;
@@ -247,17 +256,17 @@ textarea:focus {
 				transform: skewX(-20deg);
 			}
 			textarea {
-				width: 950px;
 				height: 200px;
 				font-size: 1.5em;
 				font-weight: 500;
 				margin: 0 auto;
+				width: 100%;
 			}
 		}
 		button {
 			border-radius: 0 !important;
 			transform: skewX(-20deg);
-			width: 900px !important;
+			width: 100%;
 			margin: 0 auto;
 		}
 	}

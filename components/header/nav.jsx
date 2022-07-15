@@ -18,21 +18,27 @@ function Navbar() {
                 <Link href="/">
                     <a href="" className="navbar-brand" >Omar Abdelatif</a>
                 </Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                <button className="btn btn-primary menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i className="fa-duotone fa-bars"></i>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto nav-pills">
-                        <li className="nav-item">
-                            <NavLink className="nav-link" href="#services">Services</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" href="#portfolio">Portfolio</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" href="#contact">Contact</NavLink>
-                        </li>
-                    </ul>
+                <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+                        <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div className="offcanvas-body">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item">
+                                <NavLink className="nav-link" href="#services">Services</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" href="#portfolio">Portfolio</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" href="#contact">Contact</NavLink>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
