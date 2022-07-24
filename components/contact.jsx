@@ -1,14 +1,20 @@
+import Image from 'next/image';
 function Contact() {
     return (
         <section id="contact" className="contact">
             <div className="container mx-auto">
-                <div className="row">
+                <div className="row align-items-center justify-content-center">
                     <div className="col-12">
                         <div className="contact-content-title">
                             <h2 className="text-center">Contact With Me</h2>
                         </div>
                     </div>
-                    <div className="col-lg-12">
+                    <div className="col-lg-6">
+                        <div className="contact-img">
+                            <Image src="/imgs/contact.svg" width={500} height={500} alt="contact" />
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
                         <div className="contact-content">
                             <div className="contact-form text-center">
                                 <form action="" method="post">

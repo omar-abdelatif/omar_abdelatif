@@ -216,6 +216,9 @@ textarea:focus {
 .contact {
 	padding: 50px 0;
 }
+.portfolio-content{
+	text-align: center;
+}
 // About
 // Contact
 .contact-content-title {
@@ -227,16 +230,16 @@ textarea:focus {
 		color: $Black;
 	}
 }
+.contact-img{
+	text-align: center;
+	img{
+		height: 500px !important;
+	}
+}
 .contact-form {
 	form {
 		.input-container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-evenly;
-			align-items: center;
-			input {
-				width: 400px;
-			}
+			text-align: center;
 		}
 		.form-group {
 			margin-bottom: 20px;
@@ -256,8 +259,6 @@ textarea:focus {
 				height: 200px;
 				font-size: 1.5em;
 				font-weight: 500;
-				margin: 0 auto;
-				width: 100%;
 			}
 		}
 		button {

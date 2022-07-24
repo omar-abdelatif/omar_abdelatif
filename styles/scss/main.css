@@ -222,6 +222,10 @@ textarea:focus {
   padding: 50px 0;
 }
 
+.portfolio-content {
+  text-align: center;
+}
+
 .contact-content-title {
   margin-bottom: 30px;
 }
@@ -232,14 +236,15 @@ textarea:focus {
   color: #000000;
 }
 
-.contact-form form .input-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+.contact-img {
+  text-align: center;
 }
-.contact-form form .input-container input {
-  width: 400px;
+.contact-img img {
+  height: 500px !important;
+}
+
+.contact-form form .input-container {
+  text-align: center;
 }
 .contact-form form .form-group {
   margin-bottom: 20px;
@@ -260,8 +265,6 @@ textarea:focus {
   height: 200px;
   font-size: 1.5em;
   font-weight: 500;
-  margin: 0 auto;
-  width: 100%;
 }
 .contact-form form button {
   border-radius: 0 !important;
