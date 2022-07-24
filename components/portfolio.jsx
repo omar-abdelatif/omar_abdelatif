@@ -1,4 +1,3 @@
-import { NavLink } from './navlink'
 export default function Portfolio() {
     const btnName = [
         {

@@ -205,6 +205,14 @@ textarea:focus {
   border: none;
   box-shadow: 0 0 30px #000000;
 }
+.service-item .service-icon img {
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  max-height: none !important;
+}
 
 .portfolio,
 .contact {
