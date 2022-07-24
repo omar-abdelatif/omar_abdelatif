@@ -226,6 +226,21 @@ textarea:focus {
   text-align: center;
 }
 
+.nav-pills .nav-item {
+  margin-left: 20px;
+}
+.nav-pills .nav-item:first-child {
+  margin-left: 0;
+}
+.nav-pills .nav-item .nav-link {
+  color: #ffffff !important;
+  padding: 10px;
+  background-color: #24292e;
+}
+.nav-pills .nav-item .nav-link:hover {
+  background-color: #0d6efd;
+}
+
 .contact-content-title {
   margin-bottom: 30px;
 }

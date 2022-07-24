@@ -4,6 +4,7 @@ $White: #ffffff;
 $Gray: #808080;
 $LightGray: #d3d3d3;
 $DarkGray: #a9a9a9;
+$bg-primary: #0d6efd;
 $CairoFont: Cairo;
 $none: none;
 $TLeft: left;
@@ -219,7 +220,23 @@ textarea:focus {
 .portfolio-content{
 	text-align: center;
 }
-// About
+.nav-pills{
+	.nav-item{
+		margin-left: 20px;
+		&:first-child{
+			margin-left: 0;
+		}
+		.nav-link{
+			color: $White !important;
+			padding: 10px;
+			background-color: #24292e;
+			&:hover{
+				background-color: $bg-primary;
+			}
+		}
+	}
+}
+// Skills
 // Contact
 .contact-content-title {
 	margin-bottom: 30px;

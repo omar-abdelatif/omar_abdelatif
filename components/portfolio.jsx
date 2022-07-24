@@ -1,4 +1,5 @@
-function Portfolio() {
+import { NavLink } from './navlink'
+export default function Portfolio() {
     const btnName = [
         {
             title: 'UI DESIGNS',
@@ -41,7 +42,7 @@ function Portfolio() {
                     <ul className="nav nav-pills mb-3 justify-content-center mt-5" id="pills-tab" role="tablist">
                         {btnName.map(btn => (
                             <li className="nav-item" role="presentation" key={btn.title}>
-                                <button className="nav-link" id={btn.id} data-bs-toggle="pill" data-bs-target={btn.target} type="button" role="tab" aria-controls={btn.control}>{btn.title}</button>
+                                <NavLink className="nav-link" id={btn.id} data-bs-toggle="pill" href={btn.target} role="tab" aria-controls={btn.control}>{btn.title}</NavLink>
                             </li>
                         ))}
                     </ul>
@@ -77,4 +78,3 @@ function Portfolio() {
         </section>
     );
 }
-export default Portfolio;
