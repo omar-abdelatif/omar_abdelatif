@@ -102,16 +102,6 @@ textarea:focus {
 		color: $White !important;
 	}
 }
-.active {
-	background-color: $Black;
-	color: $White;
-	padding: 15px;
-	border-radius: 10px;
-	&:hover {
-		background-color: $Black;
-		color: $White;
-	}
-}
 .fixed-top {
 	background-color: #0077b5 !important;
 }
@@ -225,6 +215,9 @@ textarea:focus {
 		margin-left: 20px;
 		&:first-child{
 			margin-left: 0;
+		}
+		&:active{
+			background-color: $bg-primary;
 		}
 		.nav-link{
 			color: $White !important;

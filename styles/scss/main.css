@@ -101,17 +101,6 @@ textarea:focus {
   color: #ffffff !important;
 }
 
-.active {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 15px;
-  border-radius: 10px;
-}
-.active:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-
 .fixed-top {
   background-color: #0077b5 !important;
 }
@@ -231,6 +220,9 @@ textarea:focus {
 }
 .nav-pills .nav-item:first-child {
   margin-left: 0;
+}
+.nav-pills .nav-item:active {
+  background-color: #0d6efd;
 }
 .nav-pills .nav-item .nav-link {
   color: #ffffff !important;
