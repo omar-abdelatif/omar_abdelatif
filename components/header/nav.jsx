@@ -19,7 +19,7 @@ function Navbar() {
                     <a href="top" className="navbar-brand" >Omar Abdelatif</a>
                 </Link>
                 <button className="btn btn-primary menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    <i className="fa-duotone fa-bars"></i>
+                    <i className="fad fa-bars"></i>
                 </button>
                 <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div className="offcanvas-header">
