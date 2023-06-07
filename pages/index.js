@@ -19,12 +19,16 @@ export default function Home() {
     // CSS
     const Link2 = document.createElement('link');
     Link2.rel = 'stylesheet';
-    Link2.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
+    Link2.href = 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css';
     document.head.appendChild(Link2);
     // BOOTSTRAP JS
     const Script2 = document.createElement('script');
-    Script2.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js';
+    Script2.src = 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js';
     document.body.appendChild(Script2);
+    //! Lang Att.
+    // const Lang = document.createElement('lang');
+    // Lang.lang = 'en';
+    // document.html.appendChild(Lang);
   }, []);
   return (
     <React.Fragment>

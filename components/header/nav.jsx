@@ -16,7 +16,7 @@ function Navbar() {
         <nav id="navbar-example2" className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <Link href="/">
-                    <a href="" className="navbar-brand" >Omar Abdelatif</a>
+                    <a href="top" className="navbar-brand" >Omar Abdelatif</a>
                 </Link>
                 <button className="btn btn-primary menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <i className="fa-duotone fa-bars"></i>

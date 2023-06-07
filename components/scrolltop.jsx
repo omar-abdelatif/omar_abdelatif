@@ -18,7 +18,7 @@ function ScrollTop() {
     }, [])
     return (
         <div onClick={ScrollTop} className="scrollbtn">
-            <a>
+            <a className='btn'>
                 <i className="fa-solid fa-hand-back-point-up"></i>
             </a>
         </div>
