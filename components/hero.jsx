@@ -72,6 +72,11 @@ function Hero() {
                                         <i className="fab fa-whatsapp"></i>
                                     </a>
                                 </li>
+                                <li className="telegram_bot">
+                                    <a href="https://t.me/LaravelDeveloper_bot" className="btn" target='blank'>
+                                        <i className="fab fa-telegram"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

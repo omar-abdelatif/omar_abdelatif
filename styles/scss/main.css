@@ -144,8 +144,7 @@ textarea:focus {
   font-weight: 600;
   color: #000000;
   text-decoration: underline;
-  -webkit-text-decoration-color: #000000;
-          text-decoration-color: #000000;
+  text-decoration-color: #000000;
   text-decoration-thickness: 3px;
 }
 .hero-social .list-unstyled {
@@ -179,6 +178,9 @@ textarea:focus {
 }
 .hero-social .list-unstyled .whatsapp {
   background-color: #25d366;
+}
+.hero-social .list-unstyled .telegram_bot {
+  background-color: #0088cc;
 }
 
 .services,
@@ -268,7 +270,6 @@ textarea:focus {
   border-radius: 10px;
 }
 .contact-form form .form-group input[type=number]::-webkit-inner-spin-button {
-  appearance: none;
   -webkit-appearance: none;
   display: none;
 }
