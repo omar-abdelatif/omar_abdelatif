@@ -13,7 +13,7 @@ export default function Home() {
     //! FONT AWESOME
     const Link = document.createElement('link');
     Link.rel = 'stylesheet';
-    Link.href = 'https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css';
+    Link.href = 'https://rawcdn.githack.com/hung1001/font-awesome-pro/4cac1a6/css/all.css';
     document.head.appendChild(Link);
     //! BOOTSTRAP
     // CSS
